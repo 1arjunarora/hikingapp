@@ -5,4 +5,5 @@ Make hiking trail predictions from sample scenic images and text descriptions (a
 Datarobot Visual AI allows you to include images as features in your datasets (You can use the image data alongside other data types to improve outcomes for various types of modeling workflows —regression, classification, anomaly detection, clustering, and more.)
 
 Developed by Arjun Arora
-May 10, 2022
+
+Dated : May 10, 2022
