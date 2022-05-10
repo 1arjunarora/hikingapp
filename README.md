@@ -1,7 +1,7 @@
-**Plant Disease Template** <br> <br> [Application](https://share.streamlit.io/iveksl2/streamlit_apps/visual_ai_drag_and_drop_app/visual_ai_drag_and_drop_app.py) 
+**Bay Area Hiking Trail Predictions** <br> <br> [Application](https://share.streamlit.io/iveksl2/streamlit_apps/visual_ai_drag_and_drop_app/visual_ai_drag_and_drop_app.py) 
 
-Drag and drop and score images in native format to score Visual AI models. The user does not have to convert them into base64. This can show the value of outputs from the VisualAI model and be helpful when presented to an audience member who would not want to code to score the model. Steffen used this in a POV to where users could understand how the outputs fit within their workflow. 
+Make hiking trail predictions from sample scenic images and text descriptions (and help your friends and family select an appropriate hike this weekend!). Users do not have to convert text, images or selections into any format. The app takes care of missing data, feature engineering, and making predictions aspect. Enjoy!!
 
-This is based off of an application built by Steffen Roecker
+Why - 
 
-
+Developed by Arjun Arora
