@@ -22,7 +22,7 @@ from project_metadata import (
 )
 
 # ============================================================================================================
-# Function for making predictions
+# Function for making predictions - Copy Paste From Deployment in DR
 # ============================================================================================================
 
 def make_datarobot_deployment_predictions(data, deployment_id):
@@ -95,7 +95,7 @@ def make_datarobot_deployment_predictions(data, deployment_id):
     return predictions_response.json()
  
 # ============================================================================================================
-# Function for image processing
+# Function for image processing to base64 format
 # ============================================================================================================
 
 def image_to_base64(image: Image) -> str:
@@ -112,7 +112,7 @@ def image_to_base64(image: Image) -> str:
     return image_base64
 
 # ============================================================================================================
-# Functions for scoring and results visualization
+# Functions for making predictions and visualizing results
 # ============================================================================================================
 
 # input is dataframe and output is explanation chart
@@ -137,7 +137,7 @@ def prep_score_render_output(data):
 
 
 # ============================================================================================================
-# streamlit app setup
+# streamlit app and buttons setup
 # ============================================================================================================
 
 # Let’s create a header for our web application
@@ -154,7 +154,7 @@ Review = st.text_area("What kind of hike do you feel like doing this morning?",'
 # image = None
 
 # ============================================================================================================
-# image upload option
+# image upload option for users
 # ============================================================================================================
 
 uploaded_img = st.file_uploader("Upload an image of a hike you feel like going to")
@@ -175,7 +175,7 @@ else :
     df_input = pd.DataFrame([[Route,Dog,Kid,Review,None]], columns= ['Route Type','Dog Friendly','Kid Friendly','Hike Review','ImagePath'])
 
 # ============================================================================================================
-# Making Predictions
+# Making Predictions Finally
 # ============================================================================================================
 
 # predict button formatting
@@ -192,7 +192,7 @@ if st.button('Click Here To Generate Personalized Hiking Recommendations For You
 
 
 # ============================================================================================================
-# users can do some sample testing here with images
+# Enable users to make recommendations based on sample scenic images
 # ============================================================================================================
 
 st.header('Example Trail Images')
