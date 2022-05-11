@@ -1,4 +1,4 @@
-**Bay Area Hiking Trail Recommender ** <br> <br> [Application](https://share.streamlit.io/1arjunarora/hikingapp/main/Hiking_app.py)
+**Bay Area Hiking Trail Recommender** <br> <br> [Application](https://share.streamlit.io/1arjunarora/hikingapp/main/Hiking_app.py)
 
 Use this app to make hiking trail recommendations from some sample scenic images and hike descriptions (and help your friends and family select an appropriate hike this weekend!). Users do not have to convert text, images or field selections into a standardized format before making predictions. The deployment and app takes care of all the data processing, feature engineering, data standardization and integration, and model scoring tasks required to generate a nice output. Enjoy!!
 
