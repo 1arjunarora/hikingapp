@@ -131,7 +131,7 @@ def prep_score_render_output(data):
     predictions = scoring["data"]
     pred_df = pd.DataFrame(predictions[0]['predictionValues']).sort_values(by='value', ascending=False).reset_index(drop=True)
     chrt =  render_prediction_barchart(pred_df)
-    st.write("Based on analyzing 100s of actual hiking and walking trail trips, our model predicts you would most like",  pred_df.loc[0, 'label'], ' - with a probability of', "{:.0%}".format(pred_df.loc[0, 'value']))
+    st.write("Based on analyzing 200+ actual hiking and walking trail trips in the Bay Area, our model predicts you would most like",  pred_df.loc[0, 'label'], ' - with a probability of', "{:.0%}".format(pred_df.loc[0, 'value']))
     st.write(chrt)
     return chrt
 
