@@ -1,9 +1,13 @@
 import streamlit as st  # willl be redundant in main program
 
-DEPLOYMENT_ID = '627ae41b92fa5b4c76f441b2'
-API_URL = 'https://cfds-ccm-prod.orm.datarobot.com/predApi/v1.0/deployments/{deployment_id}/predictions'    # noqa
-API_KEY = 'NjI1NzkxY2ViNmE0NzJjOGVkZjhmNGNkOjczY3BhVm8vQmR3OUgxR3BCa3FleHdRMGl4dys0T1JNdk1KMGswTzRrK1U9'
-DATAROBOT_KEY = '544ec55f-61bf-f6ee-0caf-15c7f919a45d'
+DEPLOYMENT_ID = st.secrets["DEPLOYMENT_ID"]
+API_URL = (
+    "https://cfds-ccm-prod.orm.datarobot.com/predApi/v1.0/deployments/"
+    + DEPLOYMENT_ID
+    + "/predictions"
+)
+API_KEY = st.secrets["API_KEY"]
+DATAROBOT_KEY = st.secrets["DATAROBOT_KEY"]
 
 # Resized Image Proportions to match training. In the future these may change
 IMAGE_RESIZED_HEIGHT = 224
