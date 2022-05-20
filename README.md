@@ -4,7 +4,7 @@ Use this app to make hiking trail recommendations from some sample scenic images
 
 Datarobot Visual AI allows you to include images as input features in your ML modeling datasets (You can use the image data alongside other data types to improve outcomes and results for various types of modeling workflows — regression, classification, anomaly detection, clustering, and more). 
 
-The following  use cases illustrate the importance of visual learning:
+The following  use cases illustrate the importance of visual learning in different industry scenarios:
 
 - Manufacturing: Automate the quality control process by enabling models to identify defects
 - Healthcare: Automated disease detection and diagnosis
