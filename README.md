@@ -12,6 +12,6 @@ The following  use cases illustrate the importance of visual learning in differe
 - Public safety: Detect intruders from security cameras
 - Insurance: Risk analysis and claims assessment
 
-Developed by Arjun Arora (Based on app examples here - https://github.com/iveksl2/streamlit_apps)
+Developed by Arjun Arora (Based on other app examples found here - https://github.com/iveksl2/streamlit_apps)
 
 Dated : May 10, 2022
