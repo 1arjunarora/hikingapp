@@ -203,11 +203,11 @@ with col1:
     st.image(img1_path)
     img1_button = st.button("Recommended Hikes Based On This Image", key='1')
 with col2:
-    img2_path = os.path.join(os.path.dirname(__file__), "images/LakeChabotTrail.png")
+    img2_path = os.path.join(os.path.dirname(__file__), "images/SawyerCampTrail.jpg")
     st.image(img2_path)
     img2_button = st.button("Recommended Hikes Based On This Image", key='2')
 with col3:
-    img3_path = os.path.join(os.path.dirname(__file__), "images/GrayWhaleCoveTrail.png")
+    img3_path = os.path.join(os.path.dirname(__file__), "images/GrayWhaleCoveTrail.jpg")
     st.image(img3_path)
     img3_button = st.button("Recommended Hikes Based On This Image", key='3')
 
