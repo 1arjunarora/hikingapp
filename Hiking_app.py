@@ -147,9 +147,9 @@ st.title("Bay Area Hiking Trail Prediction App")
 
 # Let’s create the inputs
 col1, col2, col3 = st.columns(3)
-Route = col1.selectbox("Enter your Preferred Route Type",["Loop", "Point to Point", "Out And Back"])
-Dog = col2.selectbox("Dog Friendly",["Yes", "On leash", "No"])
-Kid = col3.selectbox("Kid Friendly",["Yes", "No"])
+Route = col1.selectbox("Preferred Route Type",["Loop", "Point to Point", "Out And Back"])
+Dog = col2.selectbox("Dog Friendly Preference",["Yes", "On leash", "No"])
+Kid = col3.selectbox("Kid Friendly Preference",["Yes", "No"])
 Review = st.text_area("What kind of hike do you feel like doing this morning?",'I want to do something that has ocean views, some flowers, is easy to do and maybe has some birds - Am I asking for too much?')
 # image = None
 
