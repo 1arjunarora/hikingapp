@@ -233,7 +233,7 @@ elif img3_button:
     img_resized = img.resize(
         (IMAGE_RESIZED_WIDTH, IMAGE_RESIZED_HEIGHT), Image.ANTIALIAS)
     b64_img = image_to_base64(img_resized)    
-    df_input = pd.DataFrame([[None,None,None,None,b64_img]], columns= ['Route Type','Dog Friendly','Kid Friendly','Hike Review','ImagePath'])
+    df_input = pd.DataFrame([["Out And Back",None,None,"ocean",b64_img]], columns= ['Route Type','Dog Friendly','Kid Friendly','Hike Review','ImagePath'])
     json_input = df_input.to_json(orient="records")
     prep_score_render_output(json_input)
     
