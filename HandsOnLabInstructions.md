@@ -5,6 +5,7 @@
       - How many hikes do we have?
       - What do the hike images and text reviews look like? How much missing data do we have?
 3. **Prepare, test and validate** various cutting edge deep learning and NLP models through [automated ML]( https://docs.datarobot.com/en/docs/modeling/build-models/build-basic/model-data.html)
+      - What is the target here? (Hike Name)
       - What partitioning approach did you try?
       - Did you use image augmentation to create more accurate models? What settings?
       - What modeling mode did you try - Autopilot, Quick or Comprehensive?
