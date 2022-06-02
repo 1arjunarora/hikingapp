@@ -1,7 +1,7 @@
 # Instructions
 
 1. **Download your multimodal dataset** (images, text, tabular) from [box](https://datarobot.box.com/shared/static/bo4qqislafk6hmfuann84jbzcfnor2kk.zip)
-2. **Upload to datarobot** via drag and drop (or add through [AI catalog](https://docs.datarobot.com/en/docs/data/import-data/catalog.html) for making reuse, finding and sharing data easier)
+2. **Upload to datarobot** via drag and drop (or add through [AI catalog](https://docs.datarobot.com/en/docs/data/import-data/catalog.html) and create a project)
       - How many hikes do we have?
       - What do the hike images and text reviews look like? How much missing data do we have?
 3. **Prepare, test and validate** various cutting edge deep learning and NLP models through [automated ML]( https://docs.datarobot.com/en/docs/modeling/build-models/build-basic/model-data.html)
