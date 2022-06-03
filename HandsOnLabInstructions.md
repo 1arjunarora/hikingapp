@@ -21,5 +21,9 @@
 5. **Deploy a Datarobot Model** - From the Leaderboard, select the model to use for generating predictions and click Predict > Deploy. The [Deploy model page](https://docs.datarobot.com/en/docs/mlops/deployment/deploy-methods/deploy-model.html) lets you create a new deployment for the selected model
 6. **Setup Deployment Integration** - DataRobot provides sample Python code containing the necessary commands and identifiers needed to submit a CSV or JSON file for scoring. To use the [Prediction API Scripting Code](https://docs.datarobot.com/en/docs/mlops/deployment/deploy-pred/code-py.html), open the deployment you want to make predictions through and click Predictions > Prediction API. Follow the sample provided and make the necessary changes when you want to integrate the model, via API, into your production application.
 7. **Assemble a code-first app to generate model predictions** from sample scenic images and text descriptions. Streamlit app code examples can be edited easily for the different use cases - see file "Hiking_app.py" for example setup!
+- If you have created your own deployment in Datarobot (based on your own trails data or above data sample), simply clone this repository to get access to "requirements.txt" file, the "Hiking_app.py" file, and "project_metadata.py" file. (You can keep the image examples in if you want to include them in the final app (or add your own)
+- Test some Predictions out with your text reviews and image uploads to see what the model recommends you to check out - [Hiking Application](https://share.streamlit.io/1arjunarora/hikingapp/main/Hiking_app.py)
 
 Enjoy!!
+
+Please share feedback for improvements or data (on trails) if you have something in mind - arjun.arora@datarobot.com!
