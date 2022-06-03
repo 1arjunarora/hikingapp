@@ -12,7 +12,7 @@
 # (since the script calls the deployment and shares the latest and most accurate predicted hikes). 
 # If you end up creating say "A Seattle Hiking Recommender", just replace the deployment ID in the metadata file, and add images of seattle hikes to the app!
 # Rest is history!
-============================================================================================================
+# ============================================================================================================
 
 
 import altair as alt
