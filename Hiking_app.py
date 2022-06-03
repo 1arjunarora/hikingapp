@@ -3,10 +3,15 @@
 
 # 1. Clone the repo and all relevant files as needed
 # 2. Keep the image examples in the repository if you want to include them in the final app (or bring your own examples for customization of app)
-# 3. Replace the variables within the project_metadata.py (API Key, Deployment ID, Datarobot Key) file with your own variables found in the API scripting code (see hands on lab instructions for generating this) OR (use secret token in streamlit for storing keys) 
-# 4. Since the Hiking_app.py setup pulls deployment information (aka latest deployed model in Datarobot) from the project_metadata.py file - you can easily start testing predictions on the streamlit app.
+# 3. Replace the variables within the project_metadata.py (API Key, Deployment ID, Datarobot Key) file with your own variables 
+# found in the API scripting code (see hands on lab instructions for generating this) OR (use secret token in streamlit for storing keys) 
+# 4. Since the Hiking_app.py setup pulls deployment information (aka latest deployed model in Datarobot) from the project_metadata.py file 
+# - you can easily start testing predictions on the streamlit app.
 # 5. To launch the app locally, open a terminal, and run the following command: streamlit run Hiking_app.py!
-# 6. As you add more data, retrain models, and make edits over time in Datarobot - all you would need to do in the setup file below is.... nothing (since the script calls the deployment and shares the latest and most accurate predicted hikes). If you end up creating say "A Seattle Hiking Recommender", just replace the deployment ID in the metadata file, and add images of seattle hikes in the app! Rest is history!
+# 6. As you add more data, retrain models, and make edits over time in Datarobot - all you would need to do in the setup file below is.... nothing 
+# (since the script calls the deployment and shares the latest and most accurate predicted hikes). 
+# If you end up creating say "A Seattle Hiking Recommender", just replace the deployment ID in the metadata file, and add images of seattle hikes to the app!
+# Rest is history!
 ============================================================================================================
 
 
