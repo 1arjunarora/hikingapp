@@ -1,10 +1,12 @@
 # Instructions
 
-1. **Download your multimodal dataset** (images, text, tabular) from [box](https://datarobot.box.com/shared/static/q5204olfp1qsftwtb9pail8lwnnu9j7m.zip) or **directly upload through URL** to save time - https://datarobot.box.com/shared/static/q5204olfp1qsftwtb9pail8lwnnu9j7m.zip
-2. **Create a Project in Datarobot** via drag and drop, URL upload or add through [AI catalog](https://docs.datarobot.com/en/docs/data/import-data/catalog.html) for reuse, sharing and tagging of data!
+1. **Let's Get our Multimodal Hiking Data First** (images, text, tabular) 
+      - Download data from [box](https://datarobot.box.com/shared/static/q5204olfp1qsftwtb9pail8lwnnu9j7m.zip) and upload to Datarobot through [Drag and Drop](https://docs.datarobot.com/en/docs/data/import-data/import-to-dr.html#drag-and-drop)
+      - Import data directly through [URL](https://docs.datarobot.com/en/docs/data/import-data/import-to-dr.html#import-a-dataset-from-a-url) to save time - https://datarobot.box.com/shared/static/q5204olfp1qsftwtb9pail8lwnnu9j7m.zip
+3. **Create a Project** using above options (or add data to the [AI catalog](https://docs.datarobot.com/en/docs/data/import-data/catalog.html) first, which will enable you to find, share, and reuse data more seamlessly, and help increase collaboration!)
       - How many hikes do we have?
       - What do the hike images and text reviews look like? How much missing data do we have?
-3. **Prepare, test and validate** various cutting edge deep learning and NLP models through [automated ML]( https://docs.datarobot.com/en/docs/modeling/build-models/build-basic/model-data.html)
+4. **Prepare, test and validate** various cutting edge deep learning and NLP models through [automated ML]( https://docs.datarobot.com/en/docs/modeling/build-models/build-basic/model-data.html)
       - What is the target here? (Hike Name)
       - What partitioning approach did you try?
       - Did you use image augmentation to create more accurate models? What settings?
